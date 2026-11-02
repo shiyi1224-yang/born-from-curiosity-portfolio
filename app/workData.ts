@@ -14,8 +14,8 @@ export const works: Work[] = [
     n: "01", slug: "mycelium-village", type: "SCULPTURE · PAINTING · 3D · PRINT · XR", title: "Mycelium Village.",
     medium: "Clay / Mesh / Glow PLA / WebXR", school: "Stanford Summer + Self-directed", year: "2026",
     note: "One mushroom followed from clay and paint into Blender, a glow-in-the-dark print, and a VR forest where a touch can spread.",
-    cover: m("mycelium-village/sculpture.jpg", 1800, 1301, "Clay sculpture of two faces, the artist and her mother, sharing one base with mushrooms growing from both heads", "Same Root · clay, 2026"),
-    coverPosition: "50% 60%",
+    cover: m("mycelium-village/vr-mycelium.jpg", 1800, 979, "VR forest of giant mushrooms over a pond, with golden mycelium glowing beneath the water", "WebXR forest · golden mycelium"),
+    coverPosition: "50% 50%",
     statement: [
       "A mushroom is the small part you can see. Beneath it, mycelium carries water and signals between lives that never touch.",
       "That is my village: my mom, my family, and the hometown that holds me up from across an ocean. The clay sculpture shows my mom’s face and mine growing from one base, the resemblance between us and what she gave up for me. The painting grows mushrooms out of a computer: for a family split across two countries, the network is our soil.",
@@ -122,7 +122,7 @@ export const works: Work[] = [
   },
   {
     n: "04", slug: "flight-to-varennes", type: "COSTUME · MILLINERY · THEATRE", title: "Flight to Varennes, 1791.",
-    medium: "Ink / Paper / Paint / Plastic", school: "UCLA Summer Sessions · THEATER 72 Production Practice", year: "2025",
+    medium: "Ink / Paper / Paint / Garbage Bags", school: "UCLA Summer Sessions · THEATER 72 Production Practice", year: "2025",
     note: "A hat for a queen who has to disappear and cannot stop being seen.",
     cover: m("flight-to-varennes/final-hat.jpg", 1600, 1200, "Wide black brimmed hat with a burgundy band, worn tilted over a wig of curled paper on a head form", "Final hat on a head form"),
     coverPosition: "45% 45%",
@@ -149,11 +149,11 @@ export const works: Work[] = [
         ],
         [m("flight-to-varennes/hat-on-wig.jpg", 1600, 1200, "The hat tilted over cascading cut-paper curls, seen from the side", "Hat on wig · cut-paper curls")],
       ] },
-      { label: "03 A second silhouette, 1835", note: "A rendering realized on a dress form in plastic sheeting.", rows: [[
+      { label: "03 A second silhouette, 1835", note: "A rendering realized on a dress form using garbage bags.", rows: [[
         m("flight-to-varennes/rendering-1835.jpg", 1113, 1600, "Watercolour rendering of a woman in an 1835 black dress with a wide white collar", "Rendering, 1835"),
-        m("flight-to-varennes/dress-form.jpg", 1179, 1553, "The dress built from black and white plastic sheeting on a dress form, with a pelerine collar and rosette", "Pelerine + rosette"),
-        m("flight-to-varennes/bodice.jpg", 1200, 1600, "Close-up of the quilted black plastic bodice, pinned", "Bodice, pinned"),
-        m("flight-to-varennes/rosette.jpg", 960, 1280, "Hand holding a rosette rolled from white plastic", "Rosette, hand-rolled"),
+        m("flight-to-varennes/dress-form.jpg", 1179, 1553, "The dress built from black and white garbage bags on a dress form, with a pelerine collar and rosette", "Pelerine + rosette"),
+        m("flight-to-varennes/bodice.jpg", 1200, 1600, "Close-up of the quilted black garbage-bag bodice, pinned", "Bodice, pinned"),
+        m("flight-to-varennes/rosette.jpg", 960, 1280, "Hand holding a rosette rolled from white garbage-bag material", "Rosette, hand-rolled"),
       ]] },
     ],
   },
