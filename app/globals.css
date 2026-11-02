@@ -30,6 +30,7 @@
 .work-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.92) contrast(1.02)}
 .work-thumb span,.work-thumb i{z-index:1;padding:4px 6px 3px;background:rgba(17,23,20,.62);color:var(--linen)}
 @media(max-width:760px){.node-1{top:16%}.node-2{top:38%}.node-3{top:60%}.node-4{top:82%}}
+@media(max-width:760px){.node-1 .work-thumb img{object-fit:contain;background:#111714}}
 
 /* project pages */
 .detail-hero{min-height:84vh;padding:6vh 0}
