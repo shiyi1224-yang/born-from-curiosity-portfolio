@@ -25,7 +25,7 @@ export const works: Work[] = [
     sections: [
       { label: "01 Hand", note: "Clay and paint first.", rows: [[
         m("mycelium-village/sculpt-wip.jpg", 1280, 960, "The two clay faces before the mushrooms were added", "In progress: faces blocked in before the mushrooms"),
-        m("mycelium-village/painting.jpg", 1800, 1307, "Painting of a pale mushroom cluster growing out of a stripped computer, its circuit boards and cables", "Fruiting Body · digital painting: mushrooms growing from a computer"),
+        m("mycelium-village/painting.jpg", 1800, 1307, "Painting of a pale mushroom cluster growing out of a stripped computer, its circuit boards and cables", "Mix media painting"),
       ]] },
       { label: "02 Model & texture", note: "Made at a Stanford summer program, Aug 2026. Blender → UV unwrap → Substance 3D Painter.", rows: [
         [
