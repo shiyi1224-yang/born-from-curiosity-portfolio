@@ -23,10 +23,13 @@ export const works: Work[] = [
     ],
     role: "Sole artist & developer",
     sections: [
-      { label: "01 Hand", note: "Clay and paint first.", rows: [[
-        m("mycelium-village/sculpt-wip.jpg", 1280, 960, "The two clay faces before the mushrooms were added", "In progress: faces blocked in before the mushrooms"),
-        m("mycelium-village/painting.jpg", 1800, 1307, "Painting of a pale mushroom cluster growing out of a stripped computer, its circuit boards and cables", "Mix media painting"),
-      ]] },
+      { label: "01 Hand", note: "Clay and paint first.", rows: [
+        [m("mycelium-village/sculpture.jpg", 1800, 1301, "Clay sculpture of two faces, the artist and her mother, sharing one base with mushrooms growing from both heads", "Same Root · clay, 2026")],
+        [
+          m("mycelium-village/sculpt-wip.jpg", 1280, 960, "The two clay faces before the mushrooms were added", "In progress: faces blocked in before the mushrooms"),
+          m("mycelium-village/painting.jpg", 1800, 1307, "Painting of a pale mushroom cluster growing out of a stripped computer, its circuit boards and cables", "Mix media painting"),
+        ],
+      ] },
       { label: "02 Model & texture", note: "Made at a Stanford summer program, Aug 2026. Blender → UV unwrap → Substance 3D Painter.", rows: [
         [
           m("mycelium-village/uv.jpg", 1600, 1600, "Wireframe UV layout with four islands: stem, stem base, cap and gills", "UV layout extracted from my Substance file · 4 islands · 5,328 triangles"),
